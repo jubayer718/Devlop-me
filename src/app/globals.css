@@ -26,3 +26,8 @@
 .font-sporting {
   font-family: var(--font-sporting);
 }
+
+.heroContainer{  
+  background-image: url('/img.png');
+  background-size: cover;
+} 

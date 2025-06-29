@@ -2,6 +2,7 @@ import { GoArrowRight } from "react-icons/go"
 
 import Button from "../common/Button";
 import Link from "next/link";
+import Container from "./Container";
 
 
 const Navbar = () => {
@@ -15,8 +16,9 @@ const Navbar = () => {
   );
   return (
  
-    <nav className=" sticky top-0 shadow-sm rounded-b-4xl z-50 bg-whit py-3 px-3 md:px-6 lg:px-8 mx-[15px] bg-transparent">
-        <div className="flex justify-between items-center max-w-[1920px] w-full mx-auto">
+    <nav className=" sticky top-0  rounded-b-4xl z-50 bg-whit  bg-transparent">
+      <Container>
+      <div className="flex justify-between items-center max-w-[1920px] w-full mx-auto">
         <h1 className="font-bold text-4xl">DEVLOP.ME</h1>
         <div className="flex items-center gap-4">
         <ul >
@@ -26,6 +28,7 @@ const Navbar = () => {
          <Button className="flex items-center gap-2 font-semibold font-sporting" type="button" label="Start Project" outlined icon={GoArrowRight}/>
        </div>
       </div>
+        </Container>
     </nav>
     
   );
