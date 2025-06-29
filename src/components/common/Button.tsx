@@ -23,7 +23,7 @@ const Button = ( {
     onClick={onclick}
     disabled={disabled}
   >
-     <span className="p-1 rounded-full border-1 -ml-2"> {Icon && <Icon  size={24} />}</span>
+     {Icon && <span className="p-1 rounded-full border-1 -ml-2">  <Icon  size={24} /></span>}
     {label}
   </button>
   );
