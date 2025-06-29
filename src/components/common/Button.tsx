@@ -18,12 +18,12 @@ const Button = ( {
 }: ButtonProps) => {
   return (
   <button
-    className={`btn${outlined ? "border border-2 rounded-full p-3" : ""}${small ? " btn--small" : ""}${className ? ` ${className}` : ""}`}
+    className={`btn${outlined ? "border border-2 rounded-full p-2" : ""}${small ? " btn--small" : ""}${className ? ` ${className}` : ""}`}
     type={type}
     onClick={onclick}
     disabled={disabled}
   >
-      {Icon && <Icon size={20} />}
+     <span className="p-1 rounded-full border-1 -ml-2"> {Icon && <Icon  size={24} />}</span>
     {label}
   </button>
   );

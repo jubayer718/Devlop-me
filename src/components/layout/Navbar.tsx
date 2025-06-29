@@ -16,9 +16,9 @@ const Navbar = () => {
   );
   return (
  
-    <nav className=" sticky top-0  rounded-b-4xl z-50 bg-whit  bg-transparent">
+    <nav className="  sticky top-0  rounded-b-4xl z-50 shadow-lg bg-white opacity-80 mx-4  py-4">
       <Container>
-      <div className="flex justify-between items-center max-w-[1920px] w-full mx-auto">
+      <div className="flex justify-between items-center w-full mx-auto">
         <h1 className="font-bold text-4xl">DEVLOP.ME</h1>
         <div className="flex items-center gap-4">
         <ul >
