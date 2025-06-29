@@ -1,9 +1,11 @@
+import Navbar from "@/components/layout/Navbar";
 
 
 export default function Home() {
   return (
-    <>
-    <h1 className="font-sporting">Home page</h1>
-    </>
+    <div>
+      <Navbar/>
+      
+   </div>
   );
 }
