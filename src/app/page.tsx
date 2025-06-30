@@ -1,3 +1,4 @@
+import Interested from "@/components/Interested/Interested";
 import Extensive from "@/components/layout/Extensive";
 import Hero from "@/components/layout/Hero";
 import Navbar from "@/components/layout/Navbar";
@@ -22,6 +23,9 @@ export default function Home() {
 
       {/* Working Process Section */}
       <WorkProcess />
+
+      {/* Interested Section */}
+      <Interested />  
    </div>
   );
 }
