@@ -1,6 +1,7 @@
 import Extensive from "@/components/layout/Extensive";
 import Hero from "@/components/layout/Hero";
 import Navbar from "@/components/layout/Navbar";
+import Services from "@/components/services/Services";
 
 
 export default function Home() {
@@ -14,6 +15,9 @@ export default function Home() {
 
       {/* My Extensive Section */}
       <Extensive />
+
+      {/* Services Section */}
+      <Services />
    </div>
   );
 }
