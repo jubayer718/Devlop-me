@@ -5,8 +5,8 @@ import Container from "./Container";
 import {IoArrowDownSharp } from "react-icons/io5";
 const Extensive = () => {
   return (
+    <div className="bg-[#141414] h-screen rounded-4xl p-6 ">
       <Container>
-    <div className="bg-[#000000] h-screen rounded-4xl p-6 ">
         <div className="flex items-center ">
           <span className="p-2 border rounded-full text-white"><IoArrowDownSharp size={24}/></span>
           <Button className="text-white p-2" label="why choose me?" outlined />
@@ -20,8 +20,8 @@ const Extensive = () => {
         </div>
 
         <SkillsSlider/>
-    </div>
       </Container>
+    </div>
   );
 };
 
