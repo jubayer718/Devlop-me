@@ -6,7 +6,7 @@ interface ProcessCardProps {
   className?: string;
 }
 
-const ProcessCard = ({ description, action,className }: ProcessCardProps) => {
+const ProcessCard = ({ description, action }: ProcessCardProps) => {
   return (
  
        <div className="group h-auto shrink-0 rounded-2xl bg-gradient-to-br bg-black hover:bg-[#C5FF41] p-6 text-white hover:text-black  shadow-lg 
